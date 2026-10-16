@@ -1,0 +1,137 @@
+# C++ Programming with Bro Code 🚀
+
+A comprehensive repository for notes, practice exercises, and projects based on the **Bro Code C++ Full Course**.
+
+[![Course](https://img.shields.io/badge/Course-Bro%20Code%20C%2B%2B-red?logo=youtube)](https://youtu.be/-TkoO8Z07hI)
+[![Language](https://img.shields.io/badge/Language-C%2B%2B17%20%2F%20C%2B%2B20-blue?logo=c%2B%2B)](https://en.cppreference.com/)
+[![Compiler](https://img.shields.io/badge/Compiler-GCC%20%2F%20MinGW--w64-green)](https://www.msys2.org/)
+
+---
+
+## 📺 Course Resource
+
+- **Video Tutorial**: [Bro Code - C++ Full Course for free Bro Code (YouTube)](https://youtu.be/-TkoO8Z07hI)
+
+---
+
+## 🛠️ Environment & Tools
+
+- **Language**: C++ (C++17 / C++20 standard)
+- **Compiler**: GCC / G++ (MSYS2 MinGW-w64 UCRT64)
+- **Editor**: [Visual Studio Code](https://code.visualstudio.com/)
+- **Recommended Extensions**:
+  - [C/C++ (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+  - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
+---
+
+## ⚡ How to Run
+
+### Method 1: One-Click Run (Code Runner)
+This project is pre-configured for one-click execution:
+1. Open any `.cpp` or `.c` file (e.g., `main.cpp`).
+2. Click the **▶ (Play button)** in the top-right corner of the editor, or press:
+   ```text
+   Ctrl + Alt + N
+   ```
+> [!NOTE]
+> The configuration automatically saves your file, clears the terminal, and runs interactively in the terminal so `std::cin` works without freezing.
+
+### Method 2: Integrated Terminal
+Open a terminal in the project directory (`Ctrl + ~`) and run:
+
+```bash
+# Compile
+g++ main.cpp -o main
+
+# Run (Git Bash)
+./main
+
+# Run (PowerShell / Command Prompt)
+.\main.exe
+```
+
+### Method 3: VS Code Build Task
+Press `Ctrl + Shift + B` to trigger the pre-configured build task using `tasks.json`.
+
+---
+
+## 📂 Project Structure
+
+```text
+C++ with Bro Code/
+├── .vscode/
+│   ├── c_cpp_properties.json   # IntelliSense & compiler path settings
+│   ├── settings.json            # Code Runner one-click run settings
+│   └── tasks.json               # VS Code build tasks (g++)
+├── .gitignore                   # Ignores compiled executables (*.exe, *.o)
+├── README.md                    # Project documentation & course tracker
+└── main.cpp                     # Active practice / starter file
+```
+
+---
+
+## 📚 Course Progress & Topics
+
+Track your progress through the course topics:
+
+- [x] **01.** Hello World & Comments
+- [x] **02.** Variables & Basic Data Types
+- [x] **03.** The `const` Keyword
+- [x] **04.** Namespaces
+- [x] **05.** `typedef` & Type Aliases
+- [ ] **06.** Arithmetic Operators
+- [ ] **07.** Type Conversion
+- [ ] **08.** User Input (`std::cin` & `std::getline`)
+- [ ] **09.** Useful Math Functions (`<cmath>`)
+- [ ] **10.** 🎯 *Program: Hypotenuse Calculator*
+- [ ] **11.** If / Else Statements
+- [ ] **12.** Switch Statements
+- [ ] **13.** 🎯 *Program: Console Calculator*
+- [ ] **14.** Ternary Operator (`?:`)
+- [ ] **15.** Logical Operators (`&&`, `||`, `!`)
+- [ ] **16.** 🎯 *Program: Temperature Conversion*
+- [ ] **17.** Useful String Methods
+- [ ] **18.** While Loops
+- [ ] **19.** Do-While Loops
+- [ ] **20.** For Loops
+- [ ] **21.** Break & Continue
+- [ ] **22.** Nested Loops
+- [ ] **23.** Random Number Generator
+- [ ] **24.** Random Event Generator
+- [ ] **25.** 🎯 *Program: Number Guessing Game*
+- [ ] **26.** User-Defined Functions
+- [ ] **27.** Return Keyword
+- [ ] **28.** Function Overloading
+- [ ] **29.** Variable Scope (Local vs. Global)
+- [ ] **30.** 🎯 *Program: Banking System*
+- [ ] **31.** 🎯 *Program: Rock, Paper, Scissors*
+- [ ] **32.** Arrays
+- [ ] **33.** `sizeof` Operator
+- [ ] **34.** Iterating Over an Array
+- [ ] **35.** Foreach Loop (Range-based for)
+- [ ] **36.** Pass Array to a Function
+- [ ] **37.** Search an Array for an Element
+- [ ] **38.** Sort an Array (Bubble Sort)
+- [ ] **39.** `std::fill()` Function
+- [ ] **40.** Fill an Array with User Input
+- [ ] **41.** Multidimensional Arrays (2D Arrays)
+- [ ] **42.** 🎯 *Program: Quiz Game*
+- [ ] **43.** Memory Addresses
+- [ ] **44.** Pass by Value vs. Pass by Reference
+- [ ] **45.** `const` Parameters
+- [ ] **46.** 🎯 *Program: Credit Card Validator*
+- [ ] **47.** Pointers
+- [ ] **48.** Null Pointers (`nullptr`)
+- [ ] **49.** 🎯 *Program: Tic-Tac-Toe Game*
+- [ ] **50.** Dynamic Memory (`new` & `delete`)
+- [ ] **51.** Recursion
+- [ ] **52.** Function Templates
+- [ ] **53.** Structs
+- [ ] **54.** Pass Structs as Arguments
+- [ ] **55.** Enums
+- [ ] **56.** Object-Oriented Programming (Classes & Objects)
+- [ ] **57.** Constructors
+- [ ] **58.** Constructor Overloading
+- [ ] **59.** Getters & Setters (Encapsulation)
+- [ ] **60.** Inheritance
