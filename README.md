@@ -58,16 +58,35 @@ Press `Ctrl + Shift + B` to trigger the pre-configured build task using `tasks.j
 
 ## 📂 Project Structure
 
+Each lesson and practice exercise is structured into its own dedicated folder containing an independent, runnable `main.cpp`:
+
 ```text
 C++ with Bro Code/
-├── .vscode/
-│   ├── c_cpp_properties.json   # IntelliSense & compiler path settings
-│   ├── settings.json            # Code Runner one-click run settings
-│   └── tasks.json               # VS Code build tasks (g++)
-├── .gitignore                   # Ignores compiled executables (*.exe, *.o)
-├── README.md                    # Project documentation & course tracker
-└── main.cpp                     # Active practice / starter file
+│
+├── .vscode/                     # VS Code environment configurations
+│   ├── c_cpp_properties.json    # IntelliSense & MSYS2 MinGW-w64 compiler path
+│   ├── settings.json            # Code Runner one-click run & auto-save settings
+│   └── tasks.json               # Default g++ build task
+│
+├── namespace/                   # 04. Namespaces
+│   └── main.cpp                 # Identifier scope & collision prevention
+│
+├── operators/                   # 06. Arithmetic & Operators
+│   └── main.cpp                 # Basic arithmetic & operator practice
+│
+├── typedef/                     # 05. typedef & Type Aliases
+│   └── main.cpp                 # Type aliases using `typedef` and `using`
+│
+├── variable/                    # 02-03. Variables & Constants
+│   └── main.cpp                 # Basic data types (int, double, char, bool, string) & const
+│
+├── .gitignore                   # Excludes compiled binaries (*.exe, *.out, *.o, *.obj)
+├── README.md                    # Course documentation & progress checklist
+└── main.cpp                     # Root playground / 01. Hello World starter
 ```
+
+> [!TIP]
+> **Modular Execution**: Because Code Runner is configured with `cd $dirWithoutTrailingSlash`, you can open `main.cpp` inside **any** subfolder and hit the **▶ Play button** (or `Ctrl + Alt + N`) to compile and run that specific lesson immediately!
 
 ---
 
@@ -80,12 +99,12 @@ Track your progress through the course topics:
 - [x] **03.** The `const` Keyword
 - [x] **04.** Namespaces
 - [x] **05.** `typedef` & Type Aliases
-- [ ] **06.** Arithmetic Operators
-- [ ] **07.** Type Conversion
-- [ ] **08.** User Input (`std::cin` & `std::getline`)
-- [ ] **09.** Useful Math Functions (`<cmath>`)
-- [ ] **10.** 🎯 *Program: Hypotenuse Calculator*
-- [ ] **11.** If / Else Statements
+- [x] **06.** Arithmetic Operators
+- [x] **07.** Type Conversion
+- [x] **08.** User Input (`std::cin` & `std::getline`)
+- [x] **09.** Useful Math Functions (`<cmath>`)
+- [x] **10.** 🎯 *Program: Hypotenuse Calculator*
+- [x] **11.** If / Else Statements
 - [ ] **12.** Switch Statements
 - [ ] **13.** 🎯 *Program: Console Calculator*
 - [ ] **14.** Ternary Operator (`?:`)
