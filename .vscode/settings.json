@@ -1,0 +1,13 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.showRunIconInEditorTitleMenu": true,
+    "code-runner.executorMap": {
+        "c": "cd $dirWithoutTrailingSlash && gcc \"$fileName\" -o \"$fileNameWithoutExt\" && ./\"$fileNameWithoutExt\"",
+        "cpp": "cd $dirWithoutTrailingSlash && g++ \"$fileName\" -o \"$fileNameWithoutExt\" && ./\"$fileNameWithoutExt\""
+    }
+}
+
