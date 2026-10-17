@@ -110,9 +110,9 @@ Track your progress through the course topics:
 - [x] **14.** Ternary Operator (`?:`)
 - [x] **15.** Logical Operators (`&&`, `||`, `!`)
 - [x] **16.** 🎯 *Program: Temperature Conversion*
-- [ ] **17.** Useful String Methods
-- [ ] **18.** While Loops
-- [ ] **19.** Do-While Loops
+- [x] **17.** Useful String Methods
+- [x] **18.** While Loops
+- [x] **19.** Do-While Loops
 - [ ] **20.** For Loops
 - [ ] **21.** Break & Continue
 - [ ] **22.** Nested Loops
