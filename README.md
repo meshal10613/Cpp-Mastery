@@ -125,8 +125,8 @@ Track your progress through the course topics:
 - [x] **29.** Variable Scope (Local vs. Global)
 - [x] **30.** 🎯 *Program: Banking System*
 - [x] **31.** 🎯 *Program: Rock, Paper, Scissors*
-- [ ] **32.** Arrays
-- [ ] **33.** `sizeof` Operator
+- [x] **32.** Arrays
+- [x] **33.** `sizeof` Operator
 - [ ] **34.** Iterating Over an Array
 - [ ] **35.** Foreach Loop (Range-based for)
 - [ ] **36.** Pass Array to a Function

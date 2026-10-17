@@ -52,7 +52,7 @@ int main()
 
     name.shrink_to_fit(); //? shrinks the capacity of the string
 
-    name.resize(); //? resizes the string
+    name.resize(5); //? resizes the string
 
     name.swap(); //? swaps the string with another string
 
