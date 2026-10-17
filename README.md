@@ -113,9 +113,9 @@ Track your progress through the course topics:
 - [x] **17.** Useful String Methods
 - [x] **18.** While Loops
 - [x] **19.** Do-While Loops
-- [ ] **20.** For Loops
-- [ ] **21.** Break & Continue
-- [ ] **22.** Nested Loops
+- [x] **20.** For Loops
+- [x] **21.** Break & Continue
+- [x] **22.** Nested Loops
 - [ ] **23.** Random Number Generator
 - [ ] **24.** Random Event Generator
 - [ ] **25.** 🎯 *Program: Number Guessing Game*
