@@ -116,9 +116,9 @@ Track your progress through the course topics:
 - [x] **20.** For Loops
 - [x] **21.** Break & Continue
 - [x] **22.** Nested Loops
-- [ ] **23.** Random Number Generator
-- [ ] **24.** Random Event Generator
-- [ ] **25.** 🎯 *Program: Number Guessing Game*
+- [x] **23.** Random Number Generator
+- [x] **24.** Random Event Generator
+- [x] **25.** 🎯 *Program: Number Guessing Game*
 - [ ] **26.** User-Defined Functions
 - [ ] **27.** Return Keyword
 - [ ] **28.** Function Overloading
