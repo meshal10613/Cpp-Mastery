@@ -119,11 +119,11 @@ Track your progress through the course topics:
 - [x] **23.** Random Number Generator
 - [x] **24.** Random Event Generator
 - [x] **25.** 🎯 *Program: Number Guessing Game*
-- [ ] **26.** User-Defined Functions
-- [ ] **27.** Return Keyword
-- [ ] **28.** Function Overloading
-- [ ] **29.** Variable Scope (Local vs. Global)
-- [ ] **30.** 🎯 *Program: Banking System*
+- [x] **26.** User-Defined Functions
+- [x] **27.** Return Keyword
+- [x] **28.** Function Overloading
+- [x] **29.** Variable Scope (Local vs. Global)
+- [x] **30.** 🎯 *Program: Banking System*
 - [ ] **31.** 🎯 *Program: Rock, Paper, Scissors*
 - [ ] **32.** Arrays
 - [ ] **33.** `sizeof` Operator
