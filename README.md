@@ -105,9 +105,9 @@ Track your progress through the course topics:
 - [x] **09.** Useful Math Functions (`<cmath>`)
 - [x] **10.** 🎯 *Program: Hypotenuse Calculator*
 - [x] **11.** If / Else Statements
-- [ ] **12.** Switch Statements
-- [ ] **13.** 🎯 *Program: Console Calculator*
-- [ ] **14.** Ternary Operator (`?:`)
+- [x] **12.** Switch Statements
+- [x] **13.** 🎯 *Program: Console Calculator*
+- [x] **14.** Ternary Operator (`?:`)
 - [ ] **15.** Logical Operators (`&&`, `||`, `!`)
 - [ ] **16.** 🎯 *Program: Temperature Conversion*
 - [ ] **17.** Useful String Methods
