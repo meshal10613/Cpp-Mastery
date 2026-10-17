@@ -124,7 +124,7 @@ Track your progress through the course topics:
 - [x] **28.** Function Overloading
 - [x] **29.** Variable Scope (Local vs. Global)
 - [x] **30.** 🎯 *Program: Banking System*
-- [ ] **31.** 🎯 *Program: Rock, Paper, Scissors*
+- [x] **31.** 🎯 *Program: Rock, Paper, Scissors*
 - [ ] **32.** Arrays
 - [ ] **33.** `sizeof` Operator
 - [ ] **34.** Iterating Over an Array
