@@ -108,7 +108,7 @@ Track your progress through the course topics:
 - [x] **12.** Switch Statements
 - [x] **13.** 🎯 *Program: Console Calculator*
 - [x] **14.** Ternary Operator (`?:`)
-- [ ] **15.** Logical Operators (`&&`, `||`, `!`)
+- [x] **15.** Logical Operators (`&&`, `||`, `!`)
 - [ ] **16.** 🎯 *Program: Temperature Conversion*
 - [ ] **17.** Useful String Methods
 - [ ] **18.** While Loops
