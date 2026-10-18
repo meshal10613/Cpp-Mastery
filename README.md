@@ -137,8 +137,8 @@ Track your progress through the course topics:
 - [x] **41.** Multidimensional Arrays (2D Arrays)
 - [x] **42.** 🎯 *Program: Quiz Game*
 - [x] **43.** Memory Addresses
-- [ ] **44.** Pass by Value vs. Pass by Reference
-- [ ] **45.** `const` Parameters
+- [x] **44.** Pass by Value vs. Pass by Reference
+- [x] **45.** `const` Parameters
 - [ ] **46.** 🎯 *Program: Credit Card Validator*
 - [ ] **47.** Pointers
 - [ ] **48.** Null Pointers (`nullptr`)
