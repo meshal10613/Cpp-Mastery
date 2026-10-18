@@ -136,7 +136,7 @@ Track your progress through the course topics:
 - [x] **40.** Fill an Array with User Input
 - [x] **41.** Multidimensional Arrays (2D Arrays)
 - [x] **42.** 🎯 *Program: Quiz Game*
-- [ ] **43.** Memory Addresses
+- [x] **43.** Memory Addresses
 - [ ] **44.** Pass by Value vs. Pass by Reference
 - [ ] **45.** `const` Parameters
 - [ ] **46.** 🎯 *Program: Credit Card Validator*
