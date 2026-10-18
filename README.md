@@ -131,9 +131,9 @@ Track your progress through the course topics:
 - [x] **35.** Foreach Loop (Range-based for)
 - [x] **36.** Pass Array to a Function
 - [x] **37.** Search an Array for an Element
-- [ ] **38.** Sort an Array (Bubble Sort)
-- [ ] **39.** `std::fill()` Function
-- [ ] **40.** Fill an Array with User Input
+- [x] **38.** Sort an Array (Bubble Sort)
+- [x] **39.** `std::fill()` Function
+- [x] **40.** Fill an Array with User Input
 - [ ] **41.** Multidimensional Arrays (2D Arrays)
 - [ ] **42.** 🎯 *Program: Quiz Game*
 - [ ] **43.** Memory Addresses
