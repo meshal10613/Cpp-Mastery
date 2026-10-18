@@ -127,9 +127,9 @@ Track your progress through the course topics:
 - [x] **31.** 🎯 *Program: Rock, Paper, Scissors*
 - [x] **32.** Arrays
 - [x] **33.** `sizeof` Operator
-- [ ] **34.** Iterating Over an Array
-- [ ] **35.** Foreach Loop (Range-based for)
-- [ ] **36.** Pass Array to a Function
+- [x] **34.** Iterating Over an Array
+- [x] **35.** Foreach Loop (Range-based for)
+- [x] **36.** Pass Array to a Function
 - [ ] **37.** Search an Array for an Element
 - [ ] **38.** Sort an Array (Bubble Sort)
 - [ ] **39.** `std::fill()` Function
