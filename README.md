@@ -139,7 +139,7 @@ Track your progress through the course topics:
 - [x] **43.** Memory Addresses
 - [x] **44.** Pass by Value vs. Pass by Reference
 - [x] **45.** `const` Parameters
-- [ ] **46.** 🎯 *Program: Credit Card Validator*
+- [x] **46.** 🎯 *Program: Credit Card Validator*
 - [ ] **47.** Pointers
 - [ ] **48.** Null Pointers (`nullptr`)
 - [ ] **49.** 🎯 *Program: Tic-Tac-Toe Game*
