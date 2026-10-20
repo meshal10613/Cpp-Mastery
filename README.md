@@ -141,7 +141,7 @@ Track your progress through the course topics:
 - [x] **45.** `const` Parameters
 - [x] **46.** 🎯 *Program: Credit Card Validator*
 - [x] **47.** Pointers
-- [ ] **48.** Null Pointers (`nullptr`)
+- [x] **48.** Null Pointers (`nullptr`)
 - [ ] **49.** 🎯 *Program: Tic-Tac-Toe Game*
 - [ ] **50.** Dynamic Memory (`new` & `delete`)
 - [ ] **51.** Recursion
