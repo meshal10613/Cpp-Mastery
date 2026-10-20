@@ -143,7 +143,7 @@ Track your progress through the course topics:
 - [x] **47.** Pointers
 - [x] **48.** Null Pointers (`nullptr`)
 - [x] **49.** 🎯 *Program: Tic-Tac-Toe Game*
-- [ ] **50.** Dynamic Memory (`new` & `delete`)
+- [x] **50.** Dynamic Memory (`new` & `delete`)
 - [ ] **51.** Recursion
 - [ ] **52.** Function Templates
 - [ ] **53.** Structs
