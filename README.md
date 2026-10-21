@@ -148,7 +148,7 @@ Track your progress through the course topics:
 - [x] **52.** Function Templates
 - [x] **53.** Structs
 - [x] **54.** Pass Structs as Arguments
-- [ ] **55.** Enums
+- [x] **55.** Enums
 - [ ] **56.** Object-Oriented Programming (Classes & Objects)
 - [ ] **57.** Constructors
 - [ ] **58.** Constructor Overloading
