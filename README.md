@@ -150,7 +150,7 @@ Track your progress through the course topics:
 - [x] **54.** Pass Structs as Arguments
 - [x] **55.** Enums
 - [x] **56.** Object-Oriented Programming (Classes & Objects)
-- [ ] **57.** Constructors
-- [ ] **58.** Constructor Overloading
-- [ ] **59.** Getters & Setters (Encapsulation)
-- [ ] **60.** Inheritance
+- [x] **57.** Constructors
+- [x] **58.** Constructor Overloading
+- [x] **59.** Getters & Setters (Encapsulation)
+- [x] **60.** Inheritance
