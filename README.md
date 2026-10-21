@@ -145,7 +145,7 @@ Track your progress through the course topics:
 - [x] **49.** 🎯 *Program: Tic-Tac-Toe Game*
 - [x] **50.** Dynamic Memory (`new` & `delete`)
 - [x] **51.** Recursion
-- [ ] **52.** Function Templates
+- [x] **52.** Function Templates
 - [ ] **53.** Structs
 - [ ] **54.** Pass Structs as Arguments
 - [ ] **55.** Enums
