@@ -1,204 +1,99 @@
-# C++ Programming: From Basics to Modern C++23 🚀
+# C++ Mastery: Basics ➔ Modern C++23 ➔ DSA ➔ Systems Projects 🚀
 
-A comprehensive repository containing complete notes, runnable practice exercises, games, and advanced modules spanning the **Bro Code C++ Full Course** (Completed ✅) and the **Advanced & Modern C++23 Roadmap** (In Progress 🎯).
+A structured, production-grade learning repository tracking the complete journey from **C++ Fundamentals (Bro Code)** to **Modern C++23**, **Data Structures & Algorithms (DSA)**, and **Industry-Standard Software Projects**.
 
-[![Course](https://img.shields.io/badge/Course-Bro%20Code%20C%2B%2B%20(Completed)-brightgreen?logo=youtube)](https://youtu.be/-TkoO8Z07hI)
-[![Language](https://img.shields.io/badge/Language-C%2B%2B23%20%2F%20C%2B%2B20-blue?logo=c%2B%2B)](https://en.cppreference.com/)
-[![Compiler](https://img.shields.io/badge/Compiler-GCC%2016%20%2F%20MSYS2%20UCRT64-orange)](https://www.msys2.org/)
-[![Status](https://img.shields.io/badge/Phase%201-100%25%20Completed-success)]()
-[![Status](https://img.shields.io/badge/Phase%202-Active%20Roadmap-blue)]()
-
----
-
-## 📺 Course & Learning Resources
-
-- **Phase 1 (Completed)**: [Bro Code - C++ Full Course for free (YouTube)](https://youtu.be/-TkoO8Z07hI)
-- **Phase 2 (Advanced Topics)**: Modern C++ Standards ([cppreference.com](https://en.cppreference.com/w/cpp/23)), STL Deep-Dive, Smart Pointers, and C++23 features.
+[![Course](https://img.shields.io/badge/Foundations-Bro%20Code%20C%2B%2B%20(Completed)-brightgreen?logo=youtube)](https://youtu.be/-TkoO8Z07hI)
+[![Language](https://img.shields.io/badge/Standard-C%2B%2B23%20%2F%20C%2B%2B20-blue?logo=c%2B%2B)](https://en.cppreference.com/)
+[![Compiler](https://img.shields.io/badge/Compiler-GCC%2016%20%2F%20MinGW--w64-orange)](https://www.msys2.org/)
+[![DSA](https://img.shields.io/badge/DSA-Core%20Patterns%20Implemented-success)]()
+[![Projects](https://img.shields.io/badge/Projects-5%20System%20Blueprints-purple)]()
 
 ---
 
-## 🛠️ Environment & Tools
+## 📂 Master Repository Architecture
 
-- **Language Standard**: C++23 (`-std=c++23`)
-- **Compiler**: GCC / G++ 16.1+ (MSYS2 MinGW-w64 UCRT64)
-- **Editor**: [Visual Studio Code](https://code.visualstudio.com/)
-- **Recommended Extensions**:
-  - [C/C++ (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
-  - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-  - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) (Highlights `//?` questions and `//*` key concepts)
-
----
-
-## ⚡ How to Run
-
-### Method 1: One-Click Run (Code Runner) — *Recommended*
-This repository is pre-configured with C++23 (`-std=c++23 -lstdc++exp`):
-1. Open any `.cpp` file (e.g., `vectors/01_vector_basics/main.cpp` or `modern_cpp23/01_std_print/main.cpp`).
-2. Click the **▶ (Play button)** in the top-right corner of the editor, or press:
-   ```text
-   Ctrl + Alt + N
-   ```
-> [!NOTE]
-> VS Code automatically navigates into the active file's folder, compiles with GCC using C++23, and runs interactively in your terminal so `std::cin` works seamlessly without freezing.
-
-### Method 2: Integrated Terminal
-Open an integrated terminal (`Ctrl + ~`) in any lesson directory and run:
-
-```bash
-# Compile with C++23 support
-g++ -std=c++23 main.cpp -lstdc++exp -o main
-
-# Run (PowerShell / Command Prompt)
-.\main.exe
-
-# Run (Git Bash / MSYS2)
-./main.exe
-```
-
-### Method 3: VS Code Build Task
-Press `Ctrl + Shift + B` on any active file to trigger the pre-configured default build task defined in `.vscode/tasks.json`.
-
----
-
-## 📂 Repository Structure
-
-The repository is organized into two primary phases: **Phase 1 (Foundations & OOP)** and **Phase 2 (Advanced & Modern C++23)**:
+The repository is organized into five structured progression phases:
 
 ```text
 C++ with Bro Code/
 │
-├── .vscode/                                  # Configured IDE settings & build tasks
-│   ├── c_cpp_properties.json                 # IntelliSense & C++23 standard config
-│   ├── settings.json                         # Code Runner C++23 executor mapping
-│   └── tasks.json                            # Default GCC C++23 build task
+├── 📁 01_bro_code_basics/           # Phase 1: Complete Bro Code Beginner Foundations (Completed ✅)
+│   ├── hello_world/ ... abstraction/ # 56 Topics & 9 Mini-Projects (Calculator, Games, etc.)
 │
-├── ══════════════════════════════════════════
-│   PHASE 2: ADVANCED & MODERN C++23
-│   (New Topics & Modular Learning)
-│   ══════════════════════════════════════════
+├── 📁 02_intermediate_modern_cpp/   # Phase 2: Advanced OOP, STL, Smart Pointers & Modern C++23
+│   ├── vectors/                      # 01_basics, 02_operations, 03_2d_vectors
+│   ├── polymorphism/                 # 01_overloading, 02_virtual_override, 03_interfaces, 04_virtual_destructors
+│   ├── stl/                          # 01_sequence, 02_associative, 03_unordered, 04_adapters, 05_algorithms, 06_lambdas
+│   ├── smart_pointers/               # 01_unique_ptr, 02_shared_ptr, 03_weak_ptr, 04_raii_custom_deleters
+│   └── modern_cpp23/                 # 01_std_print, 02_ranges_views, 03_expected_optional, 04_concepts, 05_deducing_this
 │
-├── vectors/                                  # 🚀 Vectors (Dynamic Arrays)
-│   ├── 01_vector_basics/main.cpp             # Access, size vs capacity, reserve & shrink
-│   ├── 02_vector_operations/main.cpp         # push/emplace_back, insert, erase, iterators, sort
-│   └── 03_2d_vectors/main.cpp                # 2D matrices, jagged arrays, airplane seating demo
+├── 📁 03_dsa_bridge/                # Step 1: Theoretical & Practical Foundations Before DSA
+│   ├── 01_big_o_and_complexity/      # Big-O benchmarks (O(1), O(log N), O(N), O(N^2)) & CPU limits
+│   ├── 02_stl_complexity_cheatsheet/ # Vector vs List cache locality & Map vs Unordered_Map
+│   ├── 03_recursion_and_call_stack/  # Visualizing stack frames, base cases, and stack unwinding
+│   └── 04_memory_and_pass_by_reference/ # Benchmarking pass-by-value vs pass-by-const-ref (TLE prevention)
 │
-├── polymorphism/                             # 🎭 Polymorphism (Static & Dynamic)
-│   ├── 01_compile_time_polymorphism/main.cpp # Function & operator overloading (+, ==, <<)
-│   ├── 02_virtual_functions_override/main.cpp# Dynamic binding, virtual, override, vtable
-│   ├── 03_abstract_classes_interfaces/main.cpp# Pure virtual functions (=0), payment interfaces
-│   └── 04_virtual_destructors/main.cpp       # Virtual destructors & memory leak prevention
+├── 📁 04_dsa_core/                  # Step 2: Essential Data Structures & Algorithmic Patterns
+│   ├── 01_arrays_and_strings/        # Prefix Sum, Two Pointers, Sliding Window, Kadane's Algorithm
+│   ├── 02_linked_lists/              # In-Place Reversal, Floyd's Cycle Detection (Tortoise & Hare)
+│   ├── 03_stacks_and_queues/         # Monotonic Stack (Next Greater Element), O(1) MinStack
+│   ├── 04_binary_search_and_sorting/ # Binary Search, Lower Bound, Merge Sort (Divide & Conquer)
+│   ├── 05_trees_and_bst/             # Binary Tree BFS (Level-Order), DFS, BST, Lowest Common Ancestor
+│   ├── 06_heaps_and_priority_queues/ # Min/Max Heaps, Top-K Elements, Custom Task Scheduler
+│   ├── 07_graphs/                    # Adjacency List, BFS, DFS, Dijkstra's Shortest Path
+│   └── 08_dynamic_programming/       # 1D DP (Climbing Stairs, Coin Change), 2D DP (0/1 Knapsack)
 │
-├── stl/                                      # 📦 Standard Template Library (STL)
-│   ├── 01_sequence_containers/main.cpp       # std::vector, std::deque, std::list, std::array
-│   ├── 02_associative_containers/main.cpp    # std::set, multiset, std::map, multimap (Red-Black trees)
-│   ├── 03_unordered_containers/main.cpp      # std::unordered_map & unordered_set (Hash tables)
-│   ├── 04_container_adapters/main.cpp        # std::stack (LIFO), queue (FIFO), priority_queue
-│   ├── 05_stl_algorithms/main.cpp            # <algorithm> (sort, binary_search, find, transform)
-│   └── 06_iterators_and_lambdas/main.cpp     # Advance/next/prev iterators & modern lambdas
-│
-├── smart_pointers/                           # 🧠 Modern Smart Pointers & Memory Management
-│   ├── 01_unique_ptr/main.cpp                # std::make_unique, exclusive ownership, move semantics
-│   ├── 02_shared_ptr/main.cpp                # std::make_shared, ref-counting, shared ownership
-│   ├── 03_weak_ptr/main.cpp                  # std::weak_ptr, circular reference prevention, .lock()
-│   └── 04_raii_and_custom_deleters/main.cpp  # RAII scoped patterns & custom deleters (FILE*, lambdas)
-│
-├── modern_cpp23/                             # ⚡ Modern C++20 / C++23 Features
-│   ├── 01_std_print/main.cpp                 # C++23 <print> (std::print, std::println, formatting)
-│   ├── 02_ranges_and_views/main.cpp          # <ranges> pipe composition, filter, transform, chunk, slide
-│   ├── 03_expected_and_optional/main.cpp     # C++23 std::expected<T, E> & monadic std::optional
-│   ├── 04_concepts_and_constraints/main.cpp  # C++20/23 <concepts>, requires clauses, type constraints
-│   └── 05_deducing_this/main.cpp             # C++23 explicit object parameter, recursive lambdas
-│
-├── ══════════════════════════════════════════
-│   PHASE 1: BRO CODE C++ FULL COURSE
-│   (Foundations & Core OOP — Completed ✅)
-│   ══════════════════════════════════════════
-│
-├── variable/ ... abstraction/                # 01-60. Core course topics
-├── console_calculator/                       # 🎯 Mini-project: Calculator
-├── hypotenuse_calculator/                    # 🎯 Mini-project: Hypotenuse Calculator
-├── temperature_conversion/                   # 🎯 Mini-project: Temperature Conversion
-├── number_guessing_game/                     # 🎯 Mini-project: Number Guessing Game
-├── banking_system/                           # 🎯 Mini-project: Banking System
-├── rock_paper_scissors_game/                 # 🎯 Mini-project: Rock, Paper, Scissors
-├── quiz_game/                                # 🎯 Mini-project: Quiz Game
-├── credit_card_validator/                    # 🎯 Mini-project: Credit Card Validator
-├── tic_tac_toe_game/                         # 🎯 Mini-project: Tic-Tac-Toe Game
-│
-├── .gitignore                                # Excludes compiled binaries (*.exe, *.o, etc.)
-└── README.md                                 # Course documentation & progress roadmap
+└── 📁 05_projects/                  # Real-World Portfolio Systems Projects (Uncompleted Skeletons)
+    ├── tier1_dsa_systems/            # DSA-Centric Systems
+    │   ├── 01_huffman_file_compressor/ # Lossless File Compression (Min-Heap, Prefix Tree, Bit I/O)
+    │   └── 02_lru_cache_engine/      # O(1) LRU Cache (Hash Map + Doubly Linked List + TTL)
+    └── tier2_modern_cpp_systems/     # Modern C++ Systems
+        ├── 03_key_value_database/    # Mini-Redis with TTL, Persistence & C++23 std::expected
+        ├── 04_gps_route_navigation/  # GPS Engine (Dijkstra vs A* Search on Road Networks)
+        └── 05_text_editor_piece_table/ # VS Code Piece Table Buffer Engine (Fast Insert/Undo)
 ```
 
 ---
 
-## 📚 Learning Roadmap & Checklists
+## ⚡ How to Run Any Lesson
 
-### 🎓 Phase 1: Bro Code C++ Full Course (Completed ✅)
+### 1. One-Click Execution (Code Runner)
+This workspace is pre-configured with **C++23** (`-std=c++23 -lstdc++exp`):
+1. Open any `.cpp` file in VS Code.
+2. Click the **▶ (Play Button)** in the top-right corner, or press:
+   ```text
+   Ctrl + Alt + N
+   ```
+> [!NOTE]
+> VS Code automatically changes directory (`cd`) to the active file's folder, compiles using GCC 16, and launches the binary interactively in your integrated terminal.
 
-- [x] **01.** Hello World & Comments (`main.cpp`)
-- [x] **02.** Variables & Basic Data Types (`variable/`)
-- [x] **03.** The `const` Keyword (`const/`)
-- [x] **04.** Namespaces (`namespace/`)
-- [x] **05.** `typedef` & Type Aliases (`typedef/`)
-- [x] **06.** Arithmetic Operators (`operators/`)
-- [x] **07.** Type Conversion (`type_conversion/`)
-- [x] **08.** User Input (`user_input/`)
-- [x] **09.** Useful Math Functions (`math/`)
-- [x] **10.** 🎯 *Program: Hypotenuse Calculator* (`hypotenuse_calculator/`)
-- [x] **11.** If / Else Statements (`if_statements/`)
-- [x] **12.** Switch Statements (`switch/`)
-- [x] **13.** 🎯 *Program: Console Calculator* (`console_calculator/`)
-- [x] **14.** Ternary Operator (`ternery_operator/`)
-- [x] **15.** Logical Operators (`logical_operators/`)
-- [x] **16.** 🎯 *Program: Temperature Conversion* (`temperature_conversion/`)
-- [x] **17.** Useful String Methods (`string_methods/`)
-- [x] **18.** While Loops (`while_loops/`)
-- [x] **19.** Do-While Loops (`do_while_loops/`)
-- [x] **20.** For Loops (`for_loops/`)
-- [x] **21.** Break & Continue (`for_loops/`)
-- [x] **22.** Nested Loops (`nested_loops/`)
-- [x] **23.** Random Number Generator (`random_number_generator/`)
-- [x] **24.** Random Event Generator (`random_event_generator/`)
-- [x] **25.** 🎯 *Program: Number Guessing Game* (`number_guessing_game/`)
-- [x] **26.** User-Defined Functions (`function/`)
-- [x] **27.** Return Keyword (`function/`)
-- [x] **28.** Function Overloading (`overloaded_functions/`)
-- [x] **29.** Variable Scope (Local vs. Global) (`function/`)
-- [x] **30.** 🎯 *Program: Banking System* (`banking_system/`)
-- [x] **31.** 🎯 *Program: Rock, Paper, Scissors* (`rock_paper_scissors_game/`)
-- [x] **32.** Arrays (`arrays/`)
-- [x] **33.** `sizeof` Operator (`sizeof_operator/`)
-- [x] **34.** Iterating Over an Array (`iterate_an_array/`)
-- [x] **35.** Foreach Loop (`for_each_loop/`)
-- [x] **36.** Pass Array to a Function (`pass_array_in_function/`)
-- [x] **37.** Search an Array for an Element (`search_in_array/`)
-- [x] **38.** Sort an Array (Bubble Sort) (`bubble_sort/`)
-- [x] **39.** `std::fill()` Function (`fill_function/`)
-- [x] **40.** Fill an Array with User Input (`fill_array_with_input/`)
-- [x] **41.** Multidimensional Arrays (2D Arrays) (`multidimensional_array/`)
-- [x] **42.** 🎯 *Program: Quiz Game* (`quiz_game/`)
-- [x] **43.** Memory Addresses (`memory_addresses/`)
-- [x] **44.** Pass by Value vs. Pass by Reference (`pass_by_value_vs_pass_by_reference/`)
-- [x] **45.** `const` Parameters (`pass_by_value_vs_pass_by_reference/`)
-- [x] **46.** 🎯 *Program: Credit Card Validator* (`credit_card_validator/`)
-- [x] **47.** Pointers (`pointers/`)
-- [x] **48.** Null Pointers (`null_pointers/`)
-- [x] **49.** 🎯 *Program: Tic-Tac-Toe Game* (`tic_tac_toe_game/`)
-- [x] **50.** Dynamic Memory (`dynamic_memory/`)
-- [x] **51.** Recursion (`recursion/`)
-- [x] **52.** Function Templates (`function_templates/`)
-- [x] **53.** Structs (`structs/`)
-- [x] **54.** Pass Structs as Arguments (`pass_structs_as_arguments/`)
-- [x] **55.** Enums (`enums/`)
-- [x] **56.** Object-Oriented Programming (`oop/`)
-- [x] **57.** Constructors (`constructors/`)
-- [x] **58.** Constructor Overloading (`overloaded_constructors/`)
-- [x] **59.** Abstraction & Encapsulation (`abstraction/`)
-- [x] **60.** Inheritance (`inheritance/`)
+### 2. Manual Command Line
+```bash
+# Compile any file with C++23 standard
+g++ -std=c++23 main.cpp -lstdc++exp -o main
+
+# Run executable (Windows PowerShell)
+.\main.exe
+```
 
 ---
 
-### 🚀 Phase 2: Advanced Topics & Modern C++23 Roadmap
+## 🗺️ Progression Roadmaps & Checklists
+
+### 🎓 01. Bro Code C++ Full Course (Completed ✅)
+All 56 beginner-to-intermediate topics and mini-projects are archived inside [`01_bro_code_basics/`](file:///e:/C++/C++%20with%20Bro%20Code/01_bro_code_basics/):
+- [x] Basic syntax, variables, `const`, namespaces, `typedef`, and operators.
+- [x] Control flow (If/Else, Switch, Ternary, While, For, Nested loops).
+- [x] Functions, scope, recursion, and function templates.
+- [x] Arrays (1D, 2D, searching, bubble sort, passing to functions).
+- [x] Pointers, memory addresses, dynamic memory (`new`/`delete`), and structs/enums.
+- [x] Core OOP (Classes, constructors, overloading, encapsulation, inheritance).
+- [x] 9 Mini-Projects (Banking System, Tic-Tac-Toe, Credit Card Validator, Quiz Game, etc.).
+
+---
+
+### 🚀 02. Intermediate & Modern C++23 Roadmap
+Located in [`02_intermediate_modern_cpp/`](file:///e:/C++/C++%20with%20Bro%20Code/02_intermediate_modern_cpp/):
 
 #### 1. Vectors (Dynamic Arrays)
 - [ ] **V1.** Vector Basics, Memory Layout & Sizing (`vectors/01_vector_basics/`)
@@ -214,7 +109,7 @@ C++ with Bro Code/
 #### 3. Standard Template Library (STL)
 - [ ] **S1.** Sequence Containers: `vector`, `deque`, `list`, `array` (`stl/01_sequence_containers/`)
 - [ ] **S2.** Associative Containers: `set`, `multiset`, `map`, `multimap` (`stl/02_associative_containers/`)
-- [ ] **S3.** Unordered Containers: `unordered_map` & `unordered_set` (Hash Tables) (`stl/03_unordered_containers/`)
+- [ ] **S3.** Unordered Containers: `unordered_map` & `unordered_set` (`stl/03_unordered_containers/`)
 - [ ] **S4.** Container Adapters: `stack`, `queue`, `priority_queue` (`stl/04_container_adapters/`)
 - [ ] **S5.** STL Algorithms: `<algorithm>` & `<numeric>` (`stl/05_stl_algorithms/`)
 - [ ] **S6.** Modern Iterators & Lambda Expressions (`stl/06_iterators_and_lambdas/`)
@@ -234,8 +129,41 @@ C++ with Bro Code/
 
 ---
 
-## 💡 Tips for Learning
+### 🌉 03. The Bridge Before DSA (Step 1)
+Located in [`03_dsa_bridge/`](file:///e:/C++/C++%20with%20Bro%20Code/03_dsa_bridge/):
+- [ ] **B1. Big-O Complexity & Limits** (`01_big_o_and_complexity/`): Benchmarks for $O(1)$ through $O(N^2)$ and CP time-limit constraints ($10^8$ operations/sec).
+- [ ] **B2. STL Complexity & Cache Locality** (`02_stl_complexity_cheatsheet/`): Why `std::vector` contiguous memory outperforms node-based `std::list`.
+- [ ] **B3. Recursive Call Stack** (`03_recursion_and_call_stack/`): Tracing push/pop stack frames, base cases, and stack overflow limits.
+- [ ] **B4. Memory & Pass-by-Reference** (`04_memory_and_pass_by_reference/`): Eliminating silent $O(N)$ copy overhead with `const &`.
 
-1. **Active Coding**: Each lesson contains runnable demonstration code followed by a **📝 Practice Challenge** at the bottom of `main.cpp`. Try implementing the challenge before moving to the next topic!
-2. **Experimentation**: Change inputs, test boundary conditions, and observe how compiler warnings or exceptions behave.
-3. **Check Off Your Progress**: Keep updating the checkboxes (`[ ]` ➔ `[x]`) in this README as you complete each topic!
+---
+
+### 🧠 04. Core Data Structures & Algorithms (Step 2)
+Located in [`04_dsa_core/`](file:///e:/C++/C++%20with%20Bro%20Code/04_dsa_core/):
+- [ ] **D1. Arrays & Strings** (`01_arrays_and_strings/`): Prefix Sum, Two Pointers, Sliding Window, Kadane's Maximum Subarray.
+- [ ] **D2. Linked Lists** (`02_linked_lists/`): In-place node reversal and Floyd's Cycle Detection (Tortoise and Hare).
+- [ ] **D3. Stacks & Queues** (`03_stacks_and_queues/`): Monotonic Stack (Next Greater Element) and $O(1)$ MinStack.
+- [ ] **D4. Binary Search & Sorting** (`04_binary_search_and_sorting/`): Overflow-safe Binary Search, Lower Bound, Merge Sort.
+- [ ] **D5. Trees & BST** (`05_trees_and_bst/`): Level-order BFS queue traversal, BST insertion/search, Lowest Common Ancestor (LCA).
+- [ ] **D6. Heaps & Priority Queues** (`06_heaps_and_priority_queues/`): Kth Largest Element in $O(N \log K)$ and custom task schedulers.
+- [ ] **D7. Graphs** (`07_graphs/`): Adjacency list representation, BFS layer traversal, Dijkstra's Shortest Path algorithm.
+- [ ] **D8. Dynamic Programming** (`08_dynamic_programming/`): 1D DP (Climbing Stairs, Coin Change) and 2D DP (0/1 Knapsack).
+
+---
+
+### 🏆 05. Portfolio Systems Projects Roadmap
+Located in [`05_projects/`](file:///e:/C++/C++%20with%20Bro%20Code/05_projects/):
+
+#### Tier 1: DSA-Centric Systems
+- [ ] **Project 1: Huffman File Compressor** ([`tier1_dsa_systems/01_huffman_file_compressor/`](file:///e:/C++/C++%20with%20Bro%20Code/05_projects/tier1_dsa_systems/01_huffman_file_compressor/))
+  - Uses Min-Heap, Prefix Tree, and bitstream packing for lossless compression.
+- [ ] **Project 2: High-Performance LRU Cache Engine** ([`tier1_dsa_systems/02_lru_cache_engine/`](file:///e:/C++/C++%20with%20Bro%20Code/05_projects/tier1_dsa_systems/02_lru_cache_engine/))
+  - Combines Hash Map and Doubly Linked List for guaranteed $O(1)$ cache operations and eviction.
+
+#### Tier 2: Real-World Modern C++ Systems
+- [ ] **Project 3: In-Memory Key-Value Database (Mini-Redis)** ([`tier2_modern_cpp_systems/03_key_value_database/`](file:///e:/C++/C++%20with%20Bro%20Code/05_projects/tier2_modern_cpp_systems/03_key_value_database/))
+  - Implements REPL CLI, TTL key expiration, Write-Ahead Logging (WAL) persistence, and C++23 `std::expected`.
+- [ ] **Project 4: GPS Route Navigation Engine** ([`tier2_modern_cpp_systems/04_gps_route_navigation/`](file:///e:/C++/C++%20with%20Bro%20Code/05_projects/tier2_modern_cpp_systems/04_gps_route_navigation/))
+  - Road network graph pathfinding with Dijkstra vs $A^*$ Search using Euclidean distance heuristics.
+- [ ] **Project 5: Text Editor Buffer Engine (Piece Table)** ([`tier2_modern_cpp_systems/05_text_editor_piece_table/`](file:///e:/C++/C++%20with%20Bro%20Code/05_projects/tier2_modern_cpp_systems/05_text_editor_piece_table/))
+  - Production text buffer data structure (VS Code engine) for instantaneous editing and Undo/Redo.
