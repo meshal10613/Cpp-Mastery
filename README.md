@@ -147,7 +147,7 @@ Track your progress through the course topics:
 - [x] **51.** Recursion
 - [x] **52.** Function Templates
 - [x] **53.** Structs
-- [ ] **54.** Pass Structs as Arguments
+- [x] **54.** Pass Structs as Arguments
 - [ ] **55.** Enums
 - [ ] **56.** Object-Oriented Programming (Classes & Objects)
 - [ ] **57.** Constructors
