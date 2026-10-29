@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/C++/C++ with Bro Code",
-      "program": "e:/C++/C++ with Bro Code/build/Debug/outDebug",
+      "cwd": "e:/C++/C++ Mastery",
+      "program": "e:/C++/C++ Mastery/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
